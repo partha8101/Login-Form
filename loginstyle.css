@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(sea1.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.bg{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    height: 440px;
+    width: 350px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: calc(50% - 50px);
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.textbox{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.textbox input{
+    background: none;
+    outline: none;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: -5px;
+}
+.down{
+    margin-top: 30px;
+}
+
+.btn{
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 10px;
+    width: 80%;
+    color: white;
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+.link{
+    margin-left: 10px;
+    color: white;
+}
+.link:hover{
+    color: yellow;
+    text-decoration: none;
+}
